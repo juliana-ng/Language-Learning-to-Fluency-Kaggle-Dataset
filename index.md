@@ -21,6 +21,7 @@ There were no missing data and data was clean so no data cleaning was performed.
 
 
 
+
 ### Data types
 **binary**: related_language, uses_srs, reached_fluency, dropped_out
 
@@ -32,6 +33,7 @@ There were no missing data and data was clean so no data cleaning was performed.
 
 
 **continuous numerical**: active_use_share, immersion_months, speaking_practice, feedback_quality, motivation, consistency, accent_nativelike
+
 
 
 
