@@ -22,23 +22,23 @@ There were no missing data and data was clean so no data cleaning was performed.
 
 
 ### Data types
-binary: related_language, uses_srs, reached_fluency, dropped_out
+**binary**: related_language, uses_srs, reached_fluency, dropped_out
 
 
-categorical: fsi_category (ordinal) and cefr_level (nominal)
+**categorical**: fsi_category (ordinal) and cefr_level (nominal)
 
 
-discrete numerical: prior_languages, age_started, total_study_hours, comprehensible_input_hours
+**discrete numerical**: prior_languages, age_started, total_study_hours, comprehensible_input_hours
 
 
-continuous numerical: active_use_share, immersion_months, speaking_practice, feedback_quality, motivation, consistency, accent_nativelike
+**continuous numerical**: active_use_share, immersion_months, speaking_practice, feedback_quality, motivation, consistency, accent_nativelike
 
 
 ### One Hot Encoding
-fsi_category and prior_languages were first converted to string datatypes efore one hot encoding.
+**fsi_category** and **prior_languages** were first converted to string datatypes before one hot encoding.
 
 
-fsi_category, prior_languages, and cefr_level are one hot encoded for to perform the correlation matrix
+**fsi_category**, **prior_languages**, and **cefr_level** were one hot encoded for to perform the correlation matrix
 
 
 ### Summary Statistics
