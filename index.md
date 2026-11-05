@@ -9,10 +9,33 @@ exploring factors like the target language difficulty, motivation for language l
 ## 2. Dataset Observations
 Data Shape: 45,000 x 18
 Examined missing values, number of unique learners, head rows of the dataframe, and summary statistics.
+All learner_id were unique.
 There were no missing data and data was clean so no data cleaning was performed.
 
-FSI category, number of prior languages learned (prior_languages), and CEFR Level are one hot encoded for to perform the correlation matrix
-fsi_category and prior_languages datatypes were first converted to string before one hot encoding.
+### Data types
+binary: related_language, uses_srs, reached_fluency, dropped_out
+categorical: fsi_category (ordinal) and cefr_level (nominal)
+discrete numerical: prior_languages, age_started, total_study_hours, comprehensible_input_hours
+continuous numerical: active_use_share, immersion_months, speaking_practice, feedback_quality, motivation, consistency, accent_nativelike
+
+### One Hot Encoding
+fsi_category and prior_languages were first converted to string datatypes efore one hot encoding.
+fsi_category, prior_languages, and cefr_level are one hot encoded for to perform the correlation matrix
+
+### Summary Statistics
+![summary statistics](images/summarystats.png)
+The IQR of age started is 21-35 years old, with the range being 11-70
+The median total study hours is 470 hours, which is about 5 months of studying 3 hours per day.
+The median comprehensive input hours is 250 hours, 53% of the median total study hours.
+The median consistency is at 7 although median motivation is at 5.
+36% of the language learners are fluent in their target language.
+
+### Data Distribution of reached_fluency, fsi_category, cefr_level, prior_languages
+![data distribution plot](images/datadistributionplot.png)
+![data distribution numbers](images/datadistributionnum.png)
+
+## Correlation Matrix
+![correlation matrix](images/cm.png)
 
 
 
@@ -65,16 +88,16 @@ Describe what you plan to investigate in the machine learning phase.
 Summarize the main takeaways.
 
 ## Resources
-# Dataset
+### Dataset
 https://www.kaggle.com/datasets/sergionefedov/language-learning-to-fluency-who-gets-there
 
-# EDA Examples:
+### EDA Examples:
 https://www.freecodecamp.org/news/using-data-science-to-understand-what-makes-wine-taste-good-669b496c67ee
 https://machinelearningmastery.com/machine-learning-in-python-step-by-step/
 
-# One Hot Encoding for categorical variables:
+### One Hot Encoding for categorical variables:
 https://www.kaggle.com/code/dansbecker/using-categorical-data-with-one-hot-encoding
 
-# matplotlib and seaborn color palettes:
+### matplotlib and seaborn color palettes:
 https://matplotlib.org/stable/gallery/color/named_colors.html
 https://seaborn.pydata.org/tutorial/color_palettes.html
