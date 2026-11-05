@@ -64,9 +64,26 @@ The median consistency is at 7 although median motivation is at 5.
 ![data distribution plot](images/datadistributionplot.png)
 ![data distribution numbers](images/datadistributionnum.png)
 
+
+More learners are not fluent than fluent, at the CEFR A2 level.
+
+Most language learners are learning target language in the easiest FSI category, 1.
+
+The distribution of prior_languages is right skewed, which is expected since it is rarer to know more languages than not.
+
+
 ## Correlation Matrix
 ![correlation matrix](images/cm.png)
 
+
+**total_study_hours** and **comprehensible_input_hours** have a strong positive correlation r = 0.91. These are the two variables most positively correlated with **reached_fluency**, r = 0.55 and r = 0.5 respectively. 
+
+**active_use_share** is the variable behind study hours that has a slight positive correlation with **reached_fluency** r = 0.28. It is also positively correlated with **speaking_practice** r = 0.25.
+
+
+**motivation** and **consistency** have a slight positive correlation r = 0.28 and they have a slight negative correlation with **dropped_out** r = -0.15 and r = -0.14 respectively.
+
+**age_started** and **accent_nativelike** have a moderate negative correlation r = -0.65. Age started is the only variable in the dataset that has a correlation with native-like accent.
 
 
 ## 2. Research Questions
@@ -98,6 +115,11 @@ Describe the patterns you found.
 ![Fluency and dropout](images/fluency_dropout.png)
 
 ## 5. Key Findings
+
+
+need to put in the hours although there are other factors contributing to fluency and find a better method of studying. maybe need active use like output
+
+
 
 Summarize the most important findings from the analysis.
 
