@@ -153,7 +153,7 @@ For example, **FSI Category 1** is the most positively correlated to **reached_f
 
 
 
-## 5. Key Findings
+## 5. Discussion
 
 
 need to put in the hours although there are other factors contributing to fluency and find a better method of studying. maybe need active use like output
@@ -171,15 +171,21 @@ Summarize the most important findings from the analysis.
 
 ## 6. Limitations
 
-Discuss limitations of the dataset and analysis.
+this is a synthetic dataset.
+
+
 
 ## 7. Next Steps
 
-Describe what you plan to investigate in the machine learning phase.
+make a model to predict fluency from the observation of the eda
 
 ## 8. Conclusion
 
 Summarize the main takeaways.
+
+## note to self
+- analyze real language learner data
+- gather my own data where i need to pre process and clean data
 
 ## Resources
 ### Dataset
