@@ -78,18 +78,38 @@ The distribution of **prior_languages** is right skewed (skewness = 1.1), which 
 ![correlation matrix](images/cm.png)
 
 
-### Fluency:
-**total_study_hours** and **comprehensible_input_hours** have a strong positive correlation r = 0.91. These are the two variables most positively correlated with **reached_fluency**, r = 0.55 and r = 0.5 respectively. 
+## 3. Research Questions
+### Is studying more going to help reach fluency?
+![hours vs input](images/studyinput.png)
+
+**total_study_hours** and **comprehensible_input_hours** have a strong positive correlation r = 0.91.
+
+
+Linear regression results show these two variables are significantly associated p < 0.001, adjusted R² = 0.837. It means that learners spend more time on input hours (as opposed to output hours) as they study more.
+
+
+These are the two variables most positively correlated with **reached_fluency**, r = 0.55 and r = 0.5 respectively. 
+
+
+### Other than studying more, what contributes to fluency?
+![active vs speaking](images/activespeaking.png)
 
 
 **active_use_share** is the variable behind study hours that has a slight positive correlation with **reached_fluency** r = 0.28. It is also positively correlated with **speaking_practice** r = 0.25.
 
 
-### CEFR Levels:
+### What affects reaching different CEFR Levels?
+![study,active use vs fluency,cefr](images/studyactivefluentcefr.png)
+
 There is a positive correlation trend between **total_study_hours**, **comprehensible_input_hours**, and **active_use_share** with the **CEFR Levels**. For example, **CEFR A0 level** is the most negatively correlated to **total_study_hours** and **CEFR C2 level** is the most positively correlated to **total_study_hours**.
 
 
+
+
 ### Drop out:
+![motivation vs consistency](images/motivconsist.png)
+
+
 **motivation** and **consistency** have a slight positive correlation r = 0.28 and they have a slight negative correlation with **dropped_out** r = -0.15 and r = -0.14 respectively.
 
 
@@ -105,6 +125,8 @@ For example, **FSI Category 1** is the most positively correlated to **reached_f
 
 
 ### Accent
+![age vs accent](images/ageaccent.png)
+
 **age_started** and **accent_nativelike** have a moderate negative correlation r = -0.65. Age started is the only variable in the dataset that has a correlation with native-like accent.
 
 
