@@ -83,13 +83,13 @@ The distribution of **prior_languages** is right skewed (skewness = 1.1), which 
 ![study,active use vs fluency,cefr](images/studyactivefluentcefr.png)
 
 
-**total_study_hours** and **comprehensible_input_hours** are the two variables most positively correlated with **reached_fluency**, r = 0.55 and r = 0.5 respectively. **active_use_share** is the variable behind study hours that has a slight positive correlation with **reached_fluency** r = 0.28. 
+**total_study_hours** and **comprehensible_input_hours** are the two variables most positively correlated with **reached_fluency**, r = 0.55 and 0.5. **active_use_share** is the variable behind study hours that has a slight positive correlation with **reached_fluency** r = 0.28. 
 
 
 There is a positive correlation trend between **total_study_hours**, **comprehensible_input_hours**, and **active_use_share** with the **CEFR Levels**. For example, **CEFR A0 level** is the most negatively correlated to **total_study_hours** and **CEFR C2 level** is the most positively correlated to **total_study_hours**.
 
 
-The violin plots show that as learners become more fluent in the target language, they spend more hours studying. The means are 891.6 hours for fluent learners and 399.7 hours for non-fluent learners. The difference in study hours is huge and it is significant by two-tailed independent t test, p <0.001.
+The violin plots show that as learners become more fluent in the target language, they spend more hours studying. The means are 891.6 hours for fluent learners and 399.7 hours for non-fluent learners. The difference in study hours is huge and it is significant by two-tailed independent t test, p < 0.001.
 
 
 ### How are the learners studying?
@@ -108,25 +108,27 @@ Linear regression results show these two variables are significantly associated 
 **active_use_share** is positively correlated with **speaking_practice** r = 0.25.
 
 
-Active use has slight a positive correlation with reaching fluency and from the two-tailed independent t-test, the difference in fluent and non-fluent learners are significantly different p < 0.001, though the difference in mean is small (0.476, 0.357). However, it has no correlation with **total_study_hours**.
+Active use has slight a positive correlation with reaching fluency and from the two-tailed independent t-test, the difference in fluent and non-fluent learners are significantly different p < 0.001, though the difference in mean is small \(\mu\) = 0.476, 0.357. However, it has no correlation with **total_study_hours**.
 
 
-It means that learners are not really spending as much time using the target language actively as their study hours increase, although it makes a significant difference in reaching fluency. When learners actively use their target language, they spend time in speaking practice.
+It means that learners are not really spending as much time using the target language actively as their study hours increase, although it makes a significant difference in reaching fluency. Whenever learners actively use their target language, they are spending time in speaking practice.
 
 
-### What affects reaching different CEFR Levels?
+### What affects reaching fluency or different CEFR Levels?
+![fsi vs fluency,cefr](images/fsifluency.png)
 
 
+The left side-by-side bar chart shows fluency by FSI category. It shows the percentage of non-fluency goes up as the target language's FSI category is higher and fluency goes down as the FSI category is lower, the χ² test shows the association between **fsi_category** and **reached_fluency** are significant, p < 0.001. The right side-by-side bar chart show CEFR level by FSI category, which shows the pattern we observed in fluency in more detail. The skewness for CEFR level by FSI category goes from left skewed to right skewed as the FSI category goes up, skewness = -0.25, 0.04, 0.36, 0.80.
 
 
-### Drop out:
-![motivation vs consistency](images/motivconsist.png)
+### Why do learners drop out?
+![motivation vs consistency](images/motiveconsist.png)
 
 
-**motivation** and **consistency** have a slight positive correlation r = 0.28 and they have a slight negative correlation with **dropped_out** r = -0.15 and r = -0.14 respectively.
+**motivation** and **consistency** have a slight positive correlation r = 0.28 and they have a slight negative correlation with **dropped_out** r = -0.15, -0.14.
 
 
-There is a slight positive correlation between dropping out before reaching fluency (A0 - B1) r = 0.18, r = 0.2, r = 0.3, r = 0.14
+There is a slight positive correlation between dropping out before reaching fluency (A0 - B1) r = 0.18, 0.2, 0.3, 0.14
 
 
 ### FSI Category
