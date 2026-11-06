@@ -155,6 +155,7 @@ For example, **FSI Category 1** is the most positively correlated to **reached_f
 
 ## 5. Discussion
 
+only 30% fluent, mean fluent study is 800h, but the mean of this data is only 400h slightly above non fluent.
 
 need to put in the hours although there are other factors contributing to fluency and find a better method of studying. maybe need active use like output
 
@@ -186,7 +187,8 @@ Summarize the main takeaways.
 ## note to self
 - analyze real language learner data
 - gather my own data where i need to pre process and clean data
-
+- another way to write this type of report, resize image option
+  
 ## Resources
 ### Dataset
 https://www.kaggle.com/datasets/sergionefedov/language-learning-to-fluency-who-gets-there
