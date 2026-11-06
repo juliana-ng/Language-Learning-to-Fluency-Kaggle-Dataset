@@ -108,7 +108,7 @@ Linear regression results show these two variables are significantly associated 
 **active_use_share** is positively correlated with **speaking_practice** r = 0.25.
 
 
-Active use has slight a positive correlation with reaching fluency and from the two-tailed independent t-test, the difference in fluent and non-fluent learners are significantly different p < 0.001, though the difference in mean is small \(\mu\) = 0.476, 0.357. However, it has no correlation with **total_study_hours**.
+Active use has slight a positive correlation with reaching fluency and from the two-tailed independent t-test, the difference in fluent and non-fluent learners are significantly different p < 0.001, though the difference in mean is small μ = 0.476, 0.357. However, it has no correlation with **total_study_hours**.
 
 
 It means that learners are not really spending as much time using the target language actively as their study hours increase, although it makes a significant difference in reaching fluency. Whenever learners actively use their target language, they are spending time in speaking practice.
