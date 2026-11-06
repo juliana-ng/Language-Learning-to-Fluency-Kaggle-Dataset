@@ -80,7 +80,21 @@ The distribution of **prior_languages** is right skewed (skewness = 1.1), which 
 
 ## 3. Research Questions
 ### Is studying more going to help reach fluency?
+![study,active use vs fluency,cefr](images/studyactivefluentcefr.png)
+
+
+**total_study_hours** and **comprehensible_input_hours** are the two variables most positively correlated with **reached_fluency**, r = 0.55 and r = 0.5 respectively. **active_use_share** is the variable behind study hours that has a slight positive correlation with **reached_fluency** r = 0.28. 
+
+
+There is a positive correlation trend between **total_study_hours**, **comprehensible_input_hours**, and **active_use_share** with the **CEFR Levels**. For example, **CEFR A0 level** is the most negatively correlated to **total_study_hours** and **CEFR C2 level** is the most positively correlated to **total_study_hours**.
+
+
+The violin plots show that as learners become more fluent in the target language, they spend more hours studying. The means are 891.6 hours for fluent learners and 399.7 hours for non-fluent learners. The difference in study hours is huge and it is significant by two-tailed independent t test, p <0.001.
+
+
+### How are the learners studying?
 ![hours vs input](images/studyinput.png)
+
 
 **total_study_hours** and **comprehensible_input_hours** have a strong positive correlation r = 0.91.
 
@@ -88,20 +102,19 @@ The distribution of **prior_languages** is right skewed (skewness = 1.1), which 
 Linear regression results show these two variables are significantly associated p < 0.001, adjusted R² = 0.837. It means that learners spend more time on input hours (as opposed to output hours) as they study more.
 
 
-These are the two variables most positively correlated with **reached_fluency**, r = 0.55 and r = 0.5 respectively. 
-
-
-### Other than studying more, what contributes to fluency?
 ![active vs speaking](images/activespeaking.png)
 
 
-**active_use_share** is the variable behind study hours that has a slight positive correlation with **reached_fluency** r = 0.28. It is also positively correlated with **speaking_practice** r = 0.25.
+**active_use_share** is positively correlated with **speaking_practice** r = 0.25.
+
+
+Active use has slight a positive correlation with reaching fluency and from the two-tailed independent t-test, the difference in fluent and non-fluent learners are significantly different p < 0.001, though the difference in mean is small (0.476, 0.357). However, it has no correlation with **total_study_hours**.
+
+
+It means that learners are not really spending as much time using the target language actively as their study hours increase, although it makes a significant difference in reaching fluency. When learners actively use their target language, they spend time in speaking practice.
 
 
 ### What affects reaching different CEFR Levels?
-![study,active use vs fluency,cefr](images/studyactivefluentcefr.png)
-
-There is a positive correlation trend between **total_study_hours**, **comprehensible_input_hours**, and **active_use_share** with the **CEFR Levels**. For example, **CEFR A0 level** is the most negatively correlated to **total_study_hours** and **CEFR C2 level** is the most positively correlated to **total_study_hours**.
 
 
 
