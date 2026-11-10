@@ -213,41 +213,47 @@ knwing prior langugaes is not really an edge maybe study methods?
 
 
 
-Summarize the most important findings from the analysis.
-
-1. Finding one.
-2. Finding two.
-3. Finding three.
-
 ## 6. Limitations
-
-this is a synthetic dataset.
-
+This is a synthetic dataset, variables were calculated by formula.
 
 
 ## 7. Next Steps
-
 make a model to predict fluency from the observation of the eda
 
-## 8. Conclusion
 
-Summarize the main takeaways.
 
-## note to self
-- analyze real language learner data
+## 8. The secret formula to language learning
+1. Start young (to have a native-like accent, although it has nothing to do with fluency)
+
+
+2. Start with a low FSI Category and build confidence and study habits.
+
+
+3. Put in the hours, but study smart. Spend just as much time actively studying as passively inputting the language.
+
+
+4. Explore different study methods like asking for feedback, journaling, shadowing, etc.
+
+
+## Note to self
+- Analyze real language learner data
 - gather my own data where i need to pre process and clean data
 - another way to write this type of report, resize image option
+
   
 ## Resources
 ### Dataset
 https://www.kaggle.com/datasets/sergionefedov/language-learning-to-fluency-who-gets-there
 
+
 ### EDA Examples:
 https://www.freecodecamp.org/news/using-data-science-to-understand-what-makes-wine-taste-good-669b496c67ee
 https://machinelearningmastery.com/machine-learning-in-python-step-by-step/
 
+
 ### One Hot Encoding for categorical variables:
 https://www.kaggle.com/code/dansbecker/using-categorical-data-with-one-hot-encoding
+
 
 ### matplotlib and seaborn color palettes:
 https://matplotlib.org/stable/gallery/color/named_colors.html
