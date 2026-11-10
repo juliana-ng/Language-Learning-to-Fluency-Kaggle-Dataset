@@ -128,34 +128,31 @@ The left side-by-side bar chart shows fluency by FSI category. It shows the perc
 **motivation** and **consistency** have a slight positive correlation r = 0.28 and they both have a slight negative correlation with **dropped_out** r = -0.15, -0.14.
 
 
-![dropout by cefr](images/dropoutcefr.png)
+![dropout by cefr,fsi](images/dropoutcefrfsi.png)
+
 
 There is a slight positive correlation between dropping out before reaching fluency (A0 - B1) r = 0.18, 0.2, 0.3, 0.14
 
 
-The side-by-side bar chart shows drop out status by CEFR level. 
+The side-by-side bar chart shows drop out status by CEFR level. We can see a positive trend of learner staying and negative trend of quitting as they get higher in their CEFR level. χ² test shows a significant association (p < 0.001) between **drop_out** and **cefr_level**
+
+
+The opposite trend is observed in drop out status by FSI Category. As the target language's FSI Category gets harder, more learners quitted, vice versa.
 
 
 
+![dropout vars](images/dropoutvars.png)
 
 
-change dropout cefr fsi to percentage and put them side by side
-
-
-
-
-
-
-
-
-
-![motivation vs consistency](images/dropoutvars.png)
+These violin plots plots variables that have slight negative correlation with **drop_out**. There is a significant difference, p < 0.001 in all variables: **total_study_hours**, **active_use_share**, **motivation**, **consistency** between the learners who stayed and who quitted. There is a 260 study hour mean difference in those who stayed and who quitted. The difference in active use, motivation, and consistency are not as drastic.
 
 
 ### FSI Category
 There is a negative correlation trend between fluency and FSI category and positive correlation trend between dropping out and FSI category.
 
+
 For example, **FSI Category 1** is the most positively correlated to **reached_fluency** and most negatively correlated to **dropped_out**.
+
 
 **FSI Category 4** is the most negatively correlated to **reached_fluency** and most positively correlated to **dropped_out**.
 
@@ -183,7 +180,10 @@ need to put in the hours although there are other factors contributing to fluenc
 knwing prior langugaes is not really an edge maybe study methods?
 
 
-
+, the mean study hours of those who quitted are close to the mean study hours of non-fluent learnersμ
+while those who stayed are not near the mean of fluent 
+400,892
+412, 672
 
 Summarize the most important findings from the analysis.
 
