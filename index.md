@@ -125,10 +125,31 @@ The left side-by-side bar chart shows fluency by FSI category. It shows the perc
 ![motivation vs consistency](images/motiveconsist.png)
 
 
-**motivation** and **consistency** have a slight positive correlation r = 0.28 and they have a slight negative correlation with **dropped_out** r = -0.15, -0.14.
+**motivation** and **consistency** have a slight positive correlation r = 0.28 and they both have a slight negative correlation with **dropped_out** r = -0.15, -0.14.
 
+
+![dropout by cefr](images/dropoutcefr.png)
 
 There is a slight positive correlation between dropping out before reaching fluency (A0 - B1) r = 0.18, 0.2, 0.3, 0.14
+
+
+The side-by-side bar chart shows drop out status by CEFR level. 
+
+
+
+
+
+change dropout cefr fsi to percentage and put them side by side
+
+
+
+
+
+
+
+
+
+![motivation vs consistency](images/dropoutvars.png)
 
 
 ### FSI Category
