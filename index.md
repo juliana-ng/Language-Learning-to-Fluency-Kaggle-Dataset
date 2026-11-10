@@ -115,6 +115,17 @@ It means that learners are not really spending as much time using the target lan
 
 
 ### What affects reaching fluency or different CEFR Levels?
+
+
+There is a negative correlation trend between fluency and FSI category and positive correlation trend between dropping out and FSI category.
+
+
+For example, **FSI Category 1** is the most positively correlated to **reached_fluency** and most negatively correlated to **dropped_out**.
+
+
+**FSI Category 4** is the most negatively correlated to **reached_fluency** and most positively correlated to **dropped_out**.
+
+
 ![fsi vs fluency,cefr](images/fsifluency.png)
 
 
@@ -147,27 +158,24 @@ The opposite trend is observed in drop out status by FSI Category. As the target
 These violin plots plots variables that have slight negative correlation with **drop_out**. There is a significant difference, p < 0.001 in all variables: **total_study_hours**, **active_use_share**, **motivation**, **consistency** between the learners who stayed and who quitted. There is a 260 study hour mean difference in those who stayed and who quitted. The difference in active use, motivation, and consistency are not as drastic.
 
 
-### FSI Category
-There is a negative correlation trend between fluency and FSI category and positive correlation trend between dropping out and FSI category.
+### Study methods and reaching fluency 
+![study methods vs fluency,dropout](images/studymethods.png)
 
 
-For example, **FSI Category 1** is the most positively correlated to **reached_fluency** and most negatively correlated to **dropped_out**.
+The means of **feedback_quality**, **speaking_practice**, and **comprehensible_input_hours** are significantly different among learners who are non fluent vs fluent and stayed vs quitted, although the difference is smaller in drop out status than reaching fluency.
 
-
-**FSI Category 4** is the most negatively correlated to **reached_fluency** and most positively correlated to **dropped_out**.
 
 
 ### Accent
 ![age vs accent](images/ageaccent.png)
 
+
 **age_started** and **accent_nativelike** have a moderate negative correlation r = -0.65. Age started is the only variable in the dataset that has a correlation with native-like accent.
 
 
 
-
-
-
-
+### Prior Languages
+The number of language a learner knows has no correlation with any of the variables in this dataset.
 
 
 
