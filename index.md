@@ -142,10 +142,10 @@ The left side-by-side bar chart shows fluency by FSI category. It shows the perc
 ![dropout by cefr,fsi](images/dropoutcefrfsi.png)
 
 
-There is a slight positive correlation between dropping out before reaching fluency (A0 - B1) r = 0.18, 0.2, 0.3, 0.14
+There is a slight positive correlation between dropping out before reaching fluency (A0 - B1) r = 0.18, 0.2, 0.3, 0.14.
 
 
-The side-by-side bar chart shows drop out status by CEFR level. We can see a positive trend of learner staying and negative trend of quitting as they get higher in their CEFR level. χ² test shows a significant association (p < 0.001) between **drop_out** and **cefr_level**
+The side-by-side bar chart shows drop out status by CEFR level. We can see a positive trend of learner staying and negative trend of quitting as they get higher in their CEFR level. χ² test shows a significant association (p < 0.001) between **drop_out** and **cefr_level**.
 
 
 The opposite trend is observed in drop out status by FSI Category. As the target language's FSI Category gets harder, more learners quitted, vice versa.
@@ -175,23 +175,43 @@ The means of **feedback_quality**, **speaking_practice**, and **comprehensible_i
 
 
 ### Prior Languages
-The number of language a learner knows has no correlation with any of the variables in this dataset.
+The number of language a learner knows has no significant correlation with any of the variables in this dataset. The spearman correlation between **cefr_level** and **prior_languages** is r = 0.02, p < 0.001.
 
 
 
 ## 5. Discussion
 
-only 30% fluent, mean fluent study is 800h, but the mean of this data is only 400h slightly above non fluent.
 
-need to put in the hours although there are other factors contributing to fluency and find a better method of studying. maybe need active use like output
+The majority of language learners in this dataset are young adults, which gives them an advantage of having a native-like accent in their target language. However, having a native-like accent doesn't mean language fluency. Only 30% of the learners are fluent (CEFR Level B2 or above) with a total study hour mean = 800h. Most learners know 0 or 1 language prior to starting their study journey, but it has no correlation with any variables collected in this dataset. Not surprisingly, most learners have a good motivation and consistency - while it has nothing to do with reaching fluency, it helps learners stick with language study.
+
+
+Total study hours and input hours are most correlated with reaching fluency and active use is right behind input hours in reaching fluency, it is not correlated with total study hours.
+
+ and learners spend more than half of their study hours on comprehensive input. Although
+
+although active use is the variable behind study hours most correlated with fluency, but sutdy hours are not correlated with active use.means active use can help with fluency and higher cefr levels but most learners spend more time on input hours.
+when laerners actively use the language they are doing speaking practice. so what are the other ways?
+
+
+fsi category is associated with reaching fluency and it is inc harder to reach a higher cefr level as fsi cat inc. learners also tend to drop out when the cat is higher
+
+learners who reached fluency generally have a higher mean of feedback quality, speaking practice, and input hours.
+
+
+, the mean study hours of those who quitted 340med are close to the mean study hours of non-fluent learners 330
+
+while those who stayed are not near the mean of fluent 580medh vs 800h. fluent is b2 or above
+220h diff is 3h/day for about two and half months
+
+
+most learners are at a2 level then a significant drop in learners in the b1 level.
+
 
 knwing prior langugaes is not really an edge maybe study methods?
 
 
-, the mean study hours of those who quitted are close to the mean study hours of non-fluent learnersμ
-while those who stayed are not near the mean of fluent 
-400,892
-412, 672
+
+
 
 Summarize the most important findings from the analysis.
 
