@@ -182,35 +182,19 @@ The number of language a learner knows has no significant correlation with any o
 ## 5. Discussion
 
 
-The majority of language learners in this dataset are young adults, which gives them an advantage of having a native-like accent in their target language. However, having a native-like accent doesn't mean language fluency. Only 30% of the learners are fluent (CEFR Level B2 or above) with a total study hour mean = 800h. Most learners know 0 or 1 language prior to starting their study journey, but it has no correlation with any variables collected in this dataset. Not surprisingly, most learners have a good motivation and consistency - while it has nothing to do with reaching fluency, it helps learners stick with language study.
+The majority of language learners in this dataset are young adults, which gives them an advantage of having a native-like accent in their target language. However, having a native-like accent doesn't necessarily reflect language fluency. Only 30% of the learners are fluent (CEFR Level B2 or above) with a total study hour μ = 800h. Most learners are at CEFR A2 level, and there is a significant drop in learners at the CEFR B1 level, this shows some kind of hurdle for A level learners to overcome to get to B level. Most learners know 0 to 1 language prior to starting their study journey. It merely signifies the baseline demographic of the learner, but I believe this could still serve as an edge in ways the dataset did not measure in reaching language fluency. Not surprisingly, most learners have a good motivation and consistency - while it has nothing to do with reaching fluency, it does help learners stick with their language study journey.
 
 
-Total study hours and input hours are most correlated with reaching fluency and active use is right behind input hours in reaching fluency, it is not correlated with total study hours.
-
- and learners spend more than half of their study hours on comprehensive input. Although
-
-although active use is the variable behind study hours most correlated with fluency, but sutdy hours are not correlated with active use.means active use can help with fluency and higher cefr levels but most learners spend more time on input hours.
-when laerners actively use the language they are doing speaking practice. so what are the other ways?
+Total study hours and input hours are most correlated with reaching fluency and learners spend more than half their time studying on input. The median total study hours of those who quitted are 340h, close to that of non-fluent learners at 330h. While the median total study hours of those who stayed are nowhere near that of fluent learners 580h vs 800h; it is not that far off, sitting at 220h difference equivalent to an additional study time of 3h/day for about 2.5 months.
 
 
-fsi category is associated with reaching fluency and it is inc harder to reach a higher cefr level as fsi cat inc. learners also tend to drop out when the cat is higher
-
-learners who reached fluency generally have a higher mean of feedback quality, speaking practice, and input hours.
+Although active use is right behind them in reaching fluency and higher CEFR level, it is not correlated with total study hours. Learners who reached fluency also have a higher mean score of feedback quality, speaking practice, and input hours compared to non-fluent learners.
 
 
-, the mean study hours of those who quitted 340med are close to the mean study hours of non-fluent learners 330
-
-while those who stayed are not near the mean of fluent 580medh vs 800h. fluent is b2 or above
-220h diff is 3h/day for about two and half months
+This means that study hours are important in reaching fluency and actively using the target language is just as important but learners aren't spending enough time doing that. And when learners are actively using their target language, they are doing so in speaking practice. This reveals an opportunity to explore other active studying methods to accelerate reaching fluency.
 
 
-most learners are at a2 level then a significant drop in learners in the b1 level.
-
-
-knwing prior langugaes is not really an edge maybe study methods?
-
-
-
+The FSI Category is also associated with reaching fluency. It is increasingly harder to reach a higher CEFR level as FSI category increases. Learners also tend to drop out at a higher rate when the FSI category is higher.
 
 
 ## 6. Limitations
@@ -218,8 +202,7 @@ This is a synthetic dataset, variables were calculated by formula.
 
 
 ## 7. Next Steps
-make a model to predict fluency from the observation of the eda
-
+Develop a Machine Learning model to predict langugage fluency
 
 
 ## 8. The secret formula to language learning
@@ -232,13 +215,13 @@ make a model to predict fluency from the observation of the eda
 3. Put in the hours, but study smart. Spend just as much time actively studying as passively inputting the language.
 
 
-4. Explore different study methods like asking for feedback, journaling, shadowing, etc.
+4. Explore different study methods and ask for help like asking for feedback, journaling, shadowing, etc.
 
 
 ## Note to self
 - Analyze real language learner data
-- gather my own data where i need to pre process and clean data
-- another way to write this type of report, resize image option
+- Collect/webscrape my own data where I need to pre-process and clean data
+- Another way to present analysis report with image resize option
 
   
 ## Resources
