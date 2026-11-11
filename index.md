@@ -201,11 +201,7 @@ The FSI Category is also associated with reaching fluency. It is increasingly ha
 This is a synthetic dataset, variables were calculated by formula.
 
 
-## 7. Next Steps
-Develop a Machine Learning model to predict langugage fluency
-
-
-## 8. The secret formula to language learning
+## 7. The secret formula to language learning
 1. Start young (to have a native-like accent, although it has nothing to do with fluency)
 
 
@@ -216,6 +212,10 @@ Develop a Machine Learning model to predict langugage fluency
 
 
 4. Explore different study methods and ask for help like asking for feedback, journaling, shadowing, etc.
+
+
+## 8. Next Steps
+Develop a Machine Learning model to predict langugage fluency
 
 
 ## Note to self
