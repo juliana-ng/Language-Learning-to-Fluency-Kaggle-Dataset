@@ -223,23 +223,17 @@ Develop a Machine Learning model to predict langugage fluency
 - Collect/webscrape my own data where I need to pre-process and clean data
 - Another way to present analysis report with image resize option
 
-  
 ## Resources
 
 - [Dataset](https://www.kaggle.com/datasets/sergionefedov/language-learning-to-fluency-who-gets-there)
-
-
-### EDA Examples:
-https://www.freecodecamp.org/news/using-data-science-to-understand-what-makes-wine-taste-good-669b496c67ee
-https://machinelearningmastery.com/machine-learning-in-python-step-by-step/
-
-
-### One Hot Encoding for categorical variables:
-https://www.kaggle.com/code/dansbecker/using-categorical-data-with-one-hot-encoding
-
-
-### matplotlib and seaborn color palettes:
-https://matplotlib.org/stable/gallery/color/named_colors.html
-https://seaborn.pydata.org/tutorial/color_palettes.html
-
+- [Kaggle Notebook](https://www.kaggle.com/code/juhasfun/language-learning-to-fluency
+)
+- EDA Examples
+  - [How to Use Data Science to Understand What Makes Wine Taste Good](https://www.freecodecamp.org/news/using-data-science-to-understand-what-makes-wine-taste-good-669b496c67ee)
+  - [Your First Machine Learning Project in Python Step-By-Step
+](https://www.freecodecamp.org/news/using-data-science-to-understand-what-makes-wine-taste-good-669b496c67ee)
+- [One Hot Encoding for categorical variables](https://www.kaggle.com/code/dansbecker/using-categorical-data-with-one-hot-encoding)
+- Color Palettes
+  - [matplotlib](https://matplotlib.org/stable/gallery/color/named_colors.html)
+  - [seaborn](https://seaborn.pydata.org/tutorial/color_palettes.html)
 
